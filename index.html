@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="madLibs">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <a href="#!/input">Input</a>
+      <a href="#!/display">Display</a>
+    </nav>
+    <main>
+      <div ng-view="">Story..</div>
+    </main>
+
+    <!-- Include angular and angular-route -->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <!-- Include our JS files. We have to include each one here,
+         starting with the module definition file. -->
+    <script src="app.js"></script>
+    <script src="input-controller.js"></script>
+    <script src="display-controller.js"></script>
+    <script src="service.js"></script>
+  </body>
+</html>

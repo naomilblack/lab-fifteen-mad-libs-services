@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Pacifico|Pangolin');
+
+body{
+  background-image: url("images/photoshoot.png");
+}
+
+nav{
+  background-color: pink;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+nav > a{
+  text-decoration: none;
+  padding-right: 50px;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 5px;
+}
+
+input{
+  display: block;
+  width: 200px;
+  height: 20px;
+  margin: 10px;
+}
+
+button {
+  border: 1px solid #fff;
+  background: pink;
+  color: white;
+  font: bold 11px 'Trebuchet MS';
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom:10px;
+
+}
+
+.container{
+  border: 10px solid pink;
+  background-color: white;
+  margin: 30px auto;
+  width:50%;
+  padding: 10px;
+  font-family: 'Pangolin', cursive;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+
+}
+
+.input-container{
+  text-align: center;
+  border: 10px solid pink;
+  background-color: white;
+  margin: 20px auto;
+  width:30%;
+  padding-left: 10px;
+  font-family: 'Pangolin', cursive;
+}
+.text{
+  color:pink;
+}

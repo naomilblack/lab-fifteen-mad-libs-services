@@ -1,0 +1,17 @@
+<div class="input-container">
+  <form name="inputForm" ng-submit="setInput(input.$valid)" novalidate="">
+    <input type="text" name="animals" value="" ng-model=item.animals placeholder="animals" ng-minlength="3" ng-maxlength="20" required>
+    <p ng-show="inputForm.animals.$error.minlength" classs="help-block">Error!</p>
+    <p ng-show="inputForm.animals.$error.maxlength" classs="help-block">Error!</p>
+    <input type="text" name="" ng-model="input.feelings" placeholder="feelings">
+    <input type="text" name="" ng-model="input.things" placeholder="things (plural)">
+    <input type="text" name="" ng-model="input.prof" placeholder="a professional (like 'Baker')">
+    <input type="text" name="" ng-model="input.clothing" placeholder="piece of clothing (plural)">
+    <input type="text" name="" ng-model="input.things2" placeholder="things (plural)">
+    <input type="text" name="" ng-model="input.person" placeholder="a person">
+    <input type="text" name="" ng-model="input.place" placeholder="a place">
+    <input type="text" name="" ng-model="input.verb" placeholder="verb ending in /'ing/'">
+    <input type="text" name="" ng-model="input.food" placeholder="food">
+    <button type="submit" name="button">Submit</button>
+  </form>
+</div>
