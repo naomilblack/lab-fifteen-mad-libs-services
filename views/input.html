@@ -1,6 +1,6 @@
 <div class="input-container">
   <form name="inputForm" ng-submit="setInput(input.$valid)" novalidate="">
-    <input type="text" name="animals" value="" ng-model=item.animals placeholder="animals" ng-minlength="3" ng-maxlength="20" required>
+    <input type="text" name="animals" value="" ng-model=input.animals placeholder="animals" ng-minlength="3" ng-maxlength="20" required>
     <p ng-show="inputForm.animals.$error.minlength" classs="help-block">Error!</p>
     <p ng-show="inputForm.animals.$error.maxlength" classs="help-block">Error!</p>
     <input type="text" name="" ng-model="input.feelings" placeholder="feelings">
